@@ -42,13 +42,11 @@ a:hover {
 
 .card-white {
 	background: white;
-	padding: 40px;
+	padding: 30px;
 	box-shadow: 0px 10px 30px rgba(0,0,0, 0.1);
 	border-radius: 5px;
 	text-align: center;
 }
-
-
 
 .img-circle {
 	border-radius: 50%;
@@ -62,7 +60,7 @@ a:hover {
 }
 .btn-blue:hover {
 	background: red;
-	color: white;
+	color: #45315D;
 }
 
 .list-inline {
@@ -89,6 +87,66 @@ a:hover {
 #introduction p {
 	margin-bottom: 55px;
 }
+
+.btn-treehouse {
+	color: ; #45315D;
+	padding: 15px 20px;
+	border-radius: 45px;
+	border: 2px solid #45315D;
+	vertical-align: baseline
+}
+.btn-medium {
+	background: white;
+	color: #45315D;
+	padding: 15px 20px;
+	border-radius: 4px;
+	border: 2px solid #45315D;
+	
+}
+
+.btn-medium:hover {
+	background: red;
+	color: white;
+	
+}
+
+.btn-treehouse:hover {
+	background: red;
+	color: white;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+   .vertical-menu a {
+	display: block;
+	margin: 12px;
+	}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+    .container {
+    width: 300px;
+  } 
+ .vertical-menu a {
+	display: block;
+	margin: 12px;
+	}
+
+}
+
+
+
 
 
 
